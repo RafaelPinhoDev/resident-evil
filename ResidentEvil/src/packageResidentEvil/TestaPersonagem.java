@@ -1,12 +1,9 @@
 package packageResidentEvil;
 
-import java.util.Set;
-
 public class TestaPersonagem {
 
-
     public static void main(String[] args) {
-        // Instanciando um objeto do tipo Personagem
+     
         Personagem p1 = new Personagem();
         
         // Atribuindo valores usando os métodos set 
@@ -38,10 +35,6 @@ public class TestaPersonagem {
         System.out.println("Vida: " + p2.getVida());
         System.out.println("Aparicao: " + p2.getAparicao());
         System.out.println("---------------------");
-        
-        
-        
-        
     }
     
 }
