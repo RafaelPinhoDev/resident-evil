@@ -10,6 +10,24 @@ public class Personagem {
        return this.nome;
    }
    
+   // Método construtor
+   public Personagem(String nome, double vida, String aparicao){
+       this.nome = nome;
+       this.vida = vida;
+       this.aparicao = aparicao;
+       System.out.println("                                                 ");
+       System.out.println("Nome: " + this.nome);
+       System.out.println("Vida: " + this.vida);
+       System.out.println("Aparicao: " + this.aparicao);
+       System.out.println("                                                   ");
+       
+   }
+   
+   //Sobrecarga de metodo
+   public Personagem(){
+       
+   }
+   
    public void setNome(String nome){
        this.nome = nome;
    }

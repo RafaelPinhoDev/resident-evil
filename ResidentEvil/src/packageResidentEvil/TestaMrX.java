@@ -15,11 +15,14 @@ public class TestaMrX {
         
     
         System.out.println("     CHEFE DE RESIDENT EVIL     ");
-        System.out.println("--------------------------------");
+        System.out.println("                                  ");
         System.out.println("Nome: " + m1.getNome());
         System.out.println("Vida: " + m1.getVida());
         System.out.println("Dano: " + m1.getDano());
+        System.out.println("DANO CAUSADO");
         System.out.println("Status do Terno: " + m1.getTernoLimitador());
+        System.out.println("ATAQUE DO INIMIGO");
+        m1.atacar();
 
     }
     
